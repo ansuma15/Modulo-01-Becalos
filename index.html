@@ -3,66 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mi primera pagina web</title>
+    <title>Portafolio - Jesus Antonio Suarez Martinez</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <section class="name-Antonio">
             <h1>Jesus Antonio Suarez Martinez</h1>
-            <p>Ingeniero en Inteligencia Artificial</p>
+            <p>Ingeniería en Inteligencia Artificial</p>
         </section>
         <nav>   
-            <a href="#Experience">Experiencia  </a>
-            <a href="#Education">Eduacion  </a>
-            <a href="#Skills">Skills  </a>
+            <a href="#About-me">Sobre mí</a>
+            <a href="#Experience">Experiencia</a>
+            <a href="#Education">Educación</a>
+            <a href="#Skills">Habilidades</a>
+            <a href="#Contact">Contacto</a>
         </nav>
     </header>
 
-    <section id="About me">
-        <h2>Sobre mi</h2>
-        <p>Hola, soy Jesus Antonio Suarez Martinez, un ingeniero en inteligencia artificial con experiencia en el desarrollo de soluciones innovadoras. Me apasiona la tecnología y siempre estoy buscando nuevas formas de aplicar mis habilidades para resolver problemas complejos.</p>
+    <section id="About-me">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Jesus Antonio Suarez Martinez, estudiante de Ingeniería en Inteligencia Artificial. Me apasiona la tecnología, la automatización de procesos y la búsqueda de soluciones innovadoras mediante la ciencia de datos y el desarrollo de software.</p>
     </section>
 
     <section id="Experience">
-        <h2>Experiencia</h2>
+        <h2>Experiencia y Certificaciones</h2>
         <ul>
-            <li>Desarrollador de IA en Hola Company (2020 - presente)</li>
             <li>Investigador en UCSD Institute (2026)</li>
+            <li>Cybersecurity Bootcamp - Deloitte (Octubre 2025)</li>
+            <li>Data Analytics Professional Certificate - Google (En curso)</li>
         </ul>
     </section>
 
     <section id="Education">
         <h2>Educación</h2>
         <ul>
-            <li>Licenciatura en Ingeniería en Inteligencia Artificial - Instituto Politécnico Nacional (2024 - 2028)</li>
+            <li>Ingeniería en Inteligencia Artificial - Instituto Politécnico Nacional - ESCOM (2024 - 2028)</li>
+            <li>Técnico en Computación - Bachillerato Tecnológico del Plantel Azteca (2020 - 2023)</li>
         </ul>
     </section>
 
     <section id="Skills">
         <h2>Habilidades</h2>
         <ul>
-            <li>Programación en Python, Java y C++</li>
-            <li>Experiencia con frameworks de IA como TensorFlow y PyTorch</li>
-            <li>Conocimientos en aprendizaje automático y procesamiento de lenguaje natural</li>
+            <li><strong>Lenguajes de Programación:</strong> C/C++, Python, Java</li>
+            <li><strong>Bases de Datos y Herramientas:</strong> SQL, Git, Github, Linux, n8n</li>
+            <li><strong>Conocimientos técnicos:</strong> IA Generativa, Machine Learning, Análisis y visualización de datos (Tableau)</li>
         </ul>
     </section>
 
     <section id="Contact">
-        <h2>¡Contactame!</h2>
-        
+        <h2>¡Contáctame!</h2>
         <form>
-            <label for="name">Nombre:</label><br>
-            <input type="text" id="name" name="name" placeholder="Nombre" required/> <br><br>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required/> 
             
-            <label for="Email">Correo electrónico:</label><br>
-            <input type="email" id="email" name="email" placeholder="a@mail.com" required><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
             
-            <label for="message">Mensaje:</label><br>
-            <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí"></textarea><br><br>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" rows="4" required></textarea>
             
             <button type="submit">Enviar</button>
-
         </form>
     </section>
 </body>
