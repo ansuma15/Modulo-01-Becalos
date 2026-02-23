@@ -17,11 +17,11 @@ header {
 .name-Antonio h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: #2c3e50;
 }
-
 .name-Antonio p {
     font-size: 1.2rem;
-    color: #1abc9c;
+    color: #510b97;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #1abc9c;
+    color: #1b9c9e;
 }
 
 
